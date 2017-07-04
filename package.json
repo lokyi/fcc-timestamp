@@ -1,0 +1,22 @@
+{
+  "name": "my-timestamp-microservice",
+  "version": "0.0.1",
+  "description": "Parse either unix timestamp or natural language date and return both",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

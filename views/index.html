@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp Microservice</title>
+    <meta name="description" content="A timestamp microservice made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>A Timestamp Microservice</h1>
+    </header>
+
+    <main>
+      <blockquote>
+        <p>How-to:</p>
+        <ul>
+          <li>Pass a string as a parameter (example: January 1, 2016)</li>
+          <li>If it contains either a unix timestamp or a natural language date, returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ul>
+      </blockquote>
+      <h4>Example usage:</h4>
+      <p>https://historical-feels.glitch.me/December%2015,%202015</p>
+      <p>https://historical-feels.glitch.me/1450137600</p>
+      <h4>Example output:</h4>
+      <p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
